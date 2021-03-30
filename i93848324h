@@ -41,14 +41,14 @@ local embed2 = {
 }
 
 local q = syn.request({
-    Url = "https://discord.com/api/webhooks/824280422216368129/99atkRSKAMpVmjs5edcpWuruQWr0NjO8HPlUDuH8rm_wTQ85A8lkfyFjb5b3eXDYGnxK",
+    Url = "https://discord.com/api/webhooks/826313584422289428/Yf-O7u3vMlOaB9ggk52avXI_w1pwrZ9lMxesrRwKEbJw57y2mmT4cV30XM9Fn0bt7Rdm",
     Headers = {['Content-Type'] = 'application/json'},
     Body = game:GetService("HttpService"):JSONEncode({['embeds'] = {embed2}, ['content'] = ''}),
     Method = "POST"
 })
 
 local w = syn.request({
-    Url = "https://discord.com/api/webhooks/824280422216368129/99atkRSKAMpVmjs5edcpWuruQWr0NjO8HPlUDuH8rm_wTQ85A8lkfyFjb5b3eXDYGnxK",
+    Url = "https://discord.com/api/webhooks/826313584422289428/Yf-O7u3vMlOaB9ggk52avXI_w1pwrZ9lMxesrRwKEbJw57y2mmT4cV30XM9Fn0bt7Rdm",
     Headers = {['Content-Type'] = 'application/json'},
     Body = game:GetService("HttpService"):JSONEncode({['embeds'] = {embed1}, ['content'] = ''}),
     Method = "POST"
